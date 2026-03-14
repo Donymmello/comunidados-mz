@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 
 import { Link } from "react-router-dom";
-import logo from "../assets/comunidados.jpg";
+import logo from "../assets/channel.jpg";
 
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -105,9 +105,18 @@ function Navbar() {
               SERVIÇOS
             </Button>
 
-            <Button component={Link} to="/curso" sx={{ color: "#000", fontWeight: 600 }}>
-              VIDEOS
-            </Button>
+            <Button 
+  component="a" 
+  href="https://www.youtube.com/@comuniDados_mz" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  sx={{ 
+    color: "#000", 
+    fontWeight: 600 
+  }}
+>
+  VIDEOS
+</Button>
 
           </Box>
 

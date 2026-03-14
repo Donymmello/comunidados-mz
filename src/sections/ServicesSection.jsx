@@ -1,5 +1,8 @@
 import { Container, Typography, Box } from "@mui/material";
 import ServiceCard from "../components/ServiceCard";
+import analise from "../assets/analise.jpg";
+import consultoria from "../assets/consultoria.jpg";
+import reporting from "../assets/reporting.jpg";
 
 function ServicesSection() {
   return (
@@ -34,19 +37,19 @@ function ServicesSection() {
       >
 
         <ServiceCard
-          image="/images/service1.jpg"
+          image={consultoria}
           title="Consultoria científica"
           description="Ajuda na interpretação de dados e resultados."
         />
 
         <ServiceCard
-          image="/images/service2.jpg"
+          image={analise}
           title="Análise de dados"
           description="Transformo dados em informações claras."
         />
 
         <ServiceCard
-          image="/images/service3.jpg"
+          image={reporting}
           title="Reporting"
           description="Ajuda na criação de relatórios."
         />

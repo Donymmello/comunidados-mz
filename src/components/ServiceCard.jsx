@@ -19,10 +19,9 @@ function ServiceCard({ image, title, description }) {
               rel="noopener noreferrer" // segurança para links externos
   variant="outlined"
   sx={{
-    marginTop: 2,
-    borderColor: "#000",
-    color: "#000"
-  }}
+    background: "#000",
+            "&:hover": { background: "#333" }
+          }}
 >
   Mais informações
 </Button>

@@ -1,4 +1,5 @@
 import { Container, Typography, Box, Grid, Avatar, Card, CardContent, Button } from "@mui/material";
+import profile from "../assets/channel.jpg"; // Certifique-se de ter uma imagem de perfil no caminho correto
 
 function Sobre() {
   return (
@@ -25,7 +26,7 @@ function Sobre() {
 
         <Grid item xs={12} md={4} textAlign="center">
           <Avatar
-            src="/images/profile.jpg"
+            src={profile} // Use o caminho correto para a imagem
             sx={{ width: 180, height: 180, margin: "0 auto" }}
           />
         </Grid>
@@ -36,9 +37,10 @@ function Sobre() {
           </Typography>
 
           <Typography>
-            A Comunidades.MZ é uma iniciativa dedicada a apoiar estudantes,
-            investigadores e profissionais que precisam de suporte em análise
-            de dados, metodologia de pesquisa e comunicação de resultados.
+            é uma plataforma dedicada à promoção da tomada de decisões baseadas em evidência. Trabalhamos para apoiar pesquisadores, estudantes, profissionais e instituições no processo de organização, análise, interpretação e comunicação de dados.
+            Mais do que executar análises, a ComuniDados procura aproximar pessoas e evidência, tornando os dados mais compreensíveis, úteis e aplicáveis em contextos académicos, profissionais e institucionais.
+            Acreditamos que dados bem analisados e bem comunicados fortalecem pesquisas, qualificam relatórios, melhoram programas e apoiam decisões mais conscientes.
+
           </Typography>
 
           <Typography sx={{ mt: 2 }}>
@@ -124,6 +126,28 @@ function Sobre() {
           Promover o uso correto de dados e métodos científicos
           para melhorar a qualidade da pesquisa e da tomada
           de decisões.
+        </Typography>
+      </Box>
+
+      {/* Visão */}
+      <Box textAlign="center" mb={6}>
+        <Typography variant="h5" gutterBottom>
+          Nossa Visão
+        </Typography>
+
+        <Typography>
+          Ser uma referência lusófona em apoio à análise e interpretação de dados para investigação, aprendizagem e decisão.
+        </Typography>
+      </Box>
+
+      {/* Valores */}
+      <Box textAlign="center" mb={6}>
+        <Typography variant="h5" gutterBottom>
+          Nossos Valores
+        </Typography>
+
+        <Typography>
+          Rigor, clareza, ética, utilidade, aprendizagem contínua e compromisso com a evidência.
         </Typography>
       </Box>
 
