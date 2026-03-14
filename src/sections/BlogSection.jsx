@@ -8,7 +8,7 @@ function BlogSection() {
       {/* Título */}
       <Box textAlign="center" mb={6}>
         <Typography variant="h4">
-          CURSOS
+          VIDEOS
         </Typography>
 
         <Box
@@ -35,19 +35,21 @@ function BlogSection() {
 
         <BlogCard
           image="/images/blog1.jpg"
-          title="Gráfico custo-benefício"
+          title="
+Introdução ao R Markdown: Gere Relatórios em PDF, Word e HTML"
           description="O que estatística ensina."
         />
 
         <BlogCard
           image="/images/blog2.jpg"
-          title="O que é um outlier?"
+          title="Como Usar o gtsummary no R para Tabelas Estatísticas Profissionais"
           description="Aprenda a identificar outliers."
         />
 
         <BlogCard
           image="/images/blog3.jpg"
-          title="Probabilidade Mega-Sena"
+          title="
+Como Criar Mapas no Excel"
           description="Como calcular probabilidades."
         />
 
@@ -57,7 +59,7 @@ function BlogSection() {
       <Box textAlign="center" mt={6}>
         <Button
               component="a" // tranforma o botão em um link
-              href="http://localhost:5173/curso" // link para a pagina curso
+              href="https://www.youtube.com/@comuniDados_mz/videos" // link para a pagina de videos
               target="_blank" // abre em nova aba
               rel="noopener noreferrer" // segurança para links externos
           variant="outlined"
@@ -66,7 +68,7 @@ function BlogSection() {
             color: "#000"
           }}
         >
-          Ver todos os cursos
+          Ver todos os videos
         </Button>
       </Box>
 

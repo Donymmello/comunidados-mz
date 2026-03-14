@@ -47,8 +47,8 @@ function ServicesSection() {
 
         <ServiceCard
           image="/images/service3.jpg"
-          title="Curso de análise"
-          description="Aprenda análise de dados do zero."
+          title="Reporting"
+          description="Ajuda na criação de relatórios."
         />
 
       </Box>

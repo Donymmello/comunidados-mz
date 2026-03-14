@@ -1,4 +1,5 @@
 import { Container, Grid, Typography, Button, Avatar, Box } from "@mui/material";
+import profile from "../assets/profile.jpeg"; // Importe a imagem do perfil
 
 function AboutSection() {
   return (
@@ -17,7 +18,7 @@ function AboutSection() {
 
           <Grid item xs={12} md={3}>
             <Avatar
-              src="/images/profile.jpg"
+              src={profile} // Use o caminho correto para a imagem
               sx={{
                 width: 180,
                 height: 180
