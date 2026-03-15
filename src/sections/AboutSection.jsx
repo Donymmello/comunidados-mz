@@ -32,9 +32,7 @@ function AboutSection() {
             </Typography>
 
             <Typography sx={{ marginTop: 2 }}>
-              Eu sou uma cientista apaixonada por dados.
-              Há anos eu ajudo pesquisadores com a etapa
-              de análise de dados dos seus projetos.
+              Eu sou a fundadora da ComuniDados. Atuo na interseção entre análise de dados, investigação, monitoria e avaliação e comunicação de evidências, com interesse especial em tornar os dados mais acessíveis, úteis e aplicáveis em contextos reais.
             </Typography>
 
             <Button

@@ -43,7 +43,7 @@ function Servicos() {
               <Typography variant="body2">
                 Este serviço é destinado a quem já recolheu os seus dados e procura apoio especializado para a etapa de análise.
                 Ao contratar a consultoria em análise de dados, o cliente partilha a sua base de dados e o enquadramento do estudo. A partir disso, são definidas as análises mais adequadas à pergunta de investigação, aos objetivos do trabalho e ao tipo de dados disponível.
-                O serviço pode incluir: - leitura e compreensão do banco de dados - avaliação da estrutura e qualidade da base - definição da estratégia analítica mais adequada - análise estatística ou analítica conforme os objetivos do estudo - interpretação dos resultados - elaboração de tabelas e gráficos - organização metodológica dos procedimentos analíticos - entrega de relatório técnico com descrição da metodologia, resultados e referências utilizadas - reunião online de devolução para esclarecimento de dúvidas
+                O serviço pode incluir: - leitura e compreensão da base de dados - avaliação da estrutura e qualidade da base - definição da estratégia analítica mais adequada - análise estatística ou analítica conforme os objetivos do estudo - interpretação dos resultados - elaboração de tabelas e gráficos - organização metodológica dos procedimentos analíticos - entrega de relatório técnico com descrição da metodologia, resultados e referências utilizadas - reunião online de devolução para esclarecimento de dúvidas
 
               </Typography>
 
@@ -94,9 +94,7 @@ function Servicos() {
 
         <Button
           component="a" // tranforma o botão em um link
-          href="https://docs.google.com/forms/d/e/1FAIpQLSd-Kmp8rbTe1_nLBh9BrUqrX5U9okOlJhl-XYFybX84_TV85w/viewform?usp=publish-editor
-
-*Fórmula para solicitação de análise de dados*" // link para soliciar análise de dados
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd-Kmp8rbTe1_nLBh9BrUqrX5U9okOlJhl-XYFybX84_TV85w/viewform?usp=publish-editor" // link para soliciar análise de dados
           target="_blank" // abre em nova aba
           rel="noopener noreferrer" // segurança para links externos
           variant="contained"
@@ -107,6 +105,46 @@ function Servicos() {
           }}
         >
           Solicitar Análise
+
+        </Button>
+      </Box>
+
+      {/* Botão de ação */}
+      <Box textAlign="center" mt={6}>
+
+        <Button
+          component="a" // tranforma o botão em um link
+          href="mailto:shelsealuis05@gmail.com" // link para solicitar consultoria
+          target="_blank" // abre em nova aba
+          rel="noopener noreferrer" // segurança para links externos
+          variant="contained"
+          size="large"
+          sx={{
+            background: "#000",
+            "&:hover": { background: "#333" }
+          }}
+        >
+          Solicitar Consultoria
+
+        </Button>
+      </Box>
+
+      {/* Botão de ação */}
+      <Box textAlign="center" mt={6}>
+
+        <Button
+          component="a" // tranforma o botão em um link
+          href="mailto:shelsealuis05@gmail.com" // link para soliciar reporting
+          target="_blank" // abre em nova aba
+          rel="noopener noreferrer" // segurança para links externos
+          variant="contained"
+          size="large"
+          sx={{
+            background: "#000",
+            "&:hover": { background: "#333" }
+          }}
+        >
+          Solicitar Reporting
 
         </Button>
       </Box>

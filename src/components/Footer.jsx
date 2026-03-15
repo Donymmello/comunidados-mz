@@ -1,4 +1,5 @@
 import { Box, Typography, IconButton } from "@mui/material";
+import GithubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -20,11 +21,20 @@ function Footer() {
         COMUNIDADOS.MZ
       </Typography>
 
-      <Box mt={2}>
+      <Box mt={1}>
 
         <IconButton
           component="a"
-          href="https://linkedin.com/"
+          href="https://www.github.com/comunidados-mz/"
+          target="_blank"
+          sx={{ color: "#fff" }}
+        >
+          <GithubIcon />
+        </IconButton>
+
+        <IconButton
+          component="a"
+          href="https://www.linkedin.com/in/comunidados-mz/"
           target="_blank"
           sx={{ color: "#fff" }}
         >
@@ -33,7 +43,7 @@ function Footer() {
 
         <IconButton
           component="a"
-          href="https://instagram.com/"
+          href="https://instagram.com/comunidados_mz/"
           target="_blank"
           sx={{ color: "#fff" }}
         >
@@ -42,7 +52,7 @@ function Footer() {
 
         <IconButton
           component="a"
-          href="https://youtube.com/"
+          href="https://youtube.com/@comuniDados_mz"
           target="_blank"
           sx={{ color: "#fff" }}
         >
@@ -51,7 +61,7 @@ function Footer() {
 
         <IconButton
           component="a"
-          href="mailto:email@email.com"
+          href="mailto:shelsealuis05@gmail.com"
           sx={{ color: "#fff" }}
         >
           <EmailIcon />

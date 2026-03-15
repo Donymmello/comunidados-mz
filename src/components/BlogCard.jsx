@@ -1,12 +1,4 @@
-import {
-  Card,
-  CardMedia,
-  CardContent,
-  Typography,
-  Box
-} from "@mui/material";
-
-import YouTubeIcon from "@mui/icons-material/YouTube";
+import { Card, CardMedia, CardContent, Typography } from "@mui/material";
 
 function BlogCard({ image, title, link }) {
   return (
@@ -14,61 +6,28 @@ function BlogCard({ image, title, link }) {
       component="a"
       href={link}
       target="_blank"
+      rel="noopener noreferrer"
       sx={{
         textDecoration: "none",
-        cursor: "pointer",
-        overflow: "hidden",
         transition: "0.3s",
         "&:hover": {
-          transform: "translateY(-6px)",
+          transform: "translateY(-5px)",
           boxShadow: 6
         }
       }}
     >
 
-      <Box sx={{ position: "relative" }}>
-
-        <CardMedia
-          component="img"
-          height="200"
-          image={image}
-          alt={title}
-        />
-
-        {/* overlay escuro */}
-        <Box
-          sx={{
-            position: "absolute",
-            inset: 0,
-            background: "rgba(0,0,0,0.25)"
-          }}
-        />
-
-        {/* ícone youtube */}
-        <YouTubeIcon
-          sx={{
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            fontSize: 70,
-            color: "#ff0000"
-          }}
-        />
-
-      </Box>
+      <CardMedia
+        component="img"
+        image={image}
+        alt={title}
+        sx={{ height: 200, objectFit: "cover" }}
+      />
 
       <CardContent>
-
-        <Typography
-          variant="h6"
-          sx={{
-            fontWeight: 600
-          }}
-        >
+        <Typography variant="h6" sx={{ color: "#000" }}>
           {title}
         </Typography>
-
       </CardContent>
 
     </Card>

@@ -34,25 +34,22 @@ function BlogSection() {
       >
 
         <BlogCard
-          image="https://img.youtube.com/vi/VIDEO1/maxresdefault.jpg"
-          title="Introdução ao R Markdown: Gere Relatórios em PDF, Word e HTML"
-          description="O que estatística ensina."
-          link="https://youtu.be/gssTq_X_hhY?si=8fGn5xnyK04W2_As"
-        />
+  image="https://img.youtube.com/vi/gssTq_X_hhY/maxresdefault.jpg"
+  title="Introdução ao R Markdown: Gere Relatórios em PDF, Word e HTML"
+  link="https://youtu.be/gssTq_X_hhY"
+/>
 
-        <BlogCard
-          image="https://img.youtube.com/vi/VIDEO2/maxresdefault.jpg"
-          title="Como Usar o gtsummary no R para Tabelas Estatísticas Profissionais"
-          description="Aprenda a identificar outliers."
-          link="https://youtu.be/tK26WDKGNdU?si=F-rpxrV_2InJhOAL"
-        />
+<BlogCard
+  image="https://img.youtube.com/vi/tK26WDKGNdU/maxresdefault.jpg"
+  title="Como Usar o gtsummary no R para Tabelas Estatísticas Profissionais"
+  link="https://youtu.be/tK26WDKGNdU"
+/>
 
-        <BlogCard
-          image="https://img.youtube.com/vi/VIDEO3/maxresdefault.jpg"
-          title="Como Criar Mapas no Excel"
-          description="Como calcular probabilidades."
-          link="https://youtu.be/6kz-NKA_yKU?si=bnuLCsDTS8KtCV1m"
-        />
+<BlogCard
+  image="https://img.youtube.com/vi/6kz-NKA_yKU/maxresdefault.jpg"
+  title="Como Criar Mapas no Excel"
+  link="https://youtu.be/6kz-NKA_yKU"
+/>
 
       </Box>
 
