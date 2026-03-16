@@ -176,7 +176,7 @@ function Servicos() {
             size="large"
             sx={{
               background: "#34b6e9",
-              "&:hover": { background: "#a61c1c" }
+              "&:hover": { background: "#000" }
             }}
           >
             Solicitar Análise
@@ -191,10 +191,10 @@ function Servicos() {
             size="large"
             sx={{
               background: "#34b6e9",
-              "&:hover": { background: "#a61c1c" }
+              "&:hover": { background: "#000" }
             }}
           >
-            Solicitar Consultoria
+            Agendar Consultoria
           </Button>
 
 
@@ -206,10 +206,10 @@ function Servicos() {
             size="large"
             sx={{
               background: "#34b6e9",
-              "&:hover": { background: "#a61c1c" }
+              "&:hover": { background: "#000" }
             }}
           >
-            Solicitar Reporting
+            Agendar Reporting
           </Button>
 
         </Box>
