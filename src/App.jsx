@@ -8,7 +8,7 @@ import Curso from "./pages/Curso";
 import PageLoader from "./components/PageLoader";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Analytics } from "@vercel/analytics/next"
+
 
 function App() {
   return (
