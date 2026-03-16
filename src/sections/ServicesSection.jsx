@@ -1,8 +1,10 @@
-import { Container, Typography, Box } from "@mui/material";
+import { Container, Typography, Box, Button } from "@mui/material";
 import ServiceCard from "../components/ServiceCard";
 import analise from "../assets/analise.jpg";
 import consultoria from "../assets/consultoria.jpg";
 import reporting from "../assets/reporting.jpg";
+
+import { Link } from "react-router-dom";
 
 function ServicesSection() {
   return (
@@ -16,10 +18,10 @@ function ServicesSection() {
 
         <Box
           sx={{
-            width: 120,
-            height: 3,
+            width: 340,
+            height: 5,
             background: "#000",
-            margin: "10px auto"
+            margin: "1px auto"
           }}
         />
       </Box>
@@ -53,7 +55,23 @@ function ServicesSection() {
           title="Reporting"
           description="Ajuda na criação de relatórios."
         />
+      </Box>
 
+      {/* Botão */}
+      <Box textAlign="center" mt={6}>
+        <Button
+          component={Link} // tranforma o botão em um link
+          to="/servicos" // link para a pagina serviços
+          target="_blank" // abre em nova aba
+          rel="noopener noreferrer" // segurança para links externos
+          variant="contained"
+          sx={{
+            background: "#34b6e9",
+            "&:hover": { background: "#000" }
+          }}
+        >
+          Mais informações
+        </Button>
       </Box>
 
     </Container>

@@ -1,6 +1,8 @@
 import { Container, Typography, Box, Button } from "@mui/material";
 import BlogCard from "../components/BlogCard";
 
+import { Link } from "react-router-dom";
+
 function BlogSection() {
   return (
     <Container sx={{ mt: 10 }}>
@@ -13,8 +15,8 @@ function BlogSection() {
 
         <Box
           sx={{
-            width: 200,
-            height: 3,
+            width: 340,
+            height: 5,
             background: "#000",
             margin: "10px auto"
           }}
@@ -56,14 +58,14 @@ function BlogSection() {
       {/* Botão */}
       <Box textAlign="center" mt={6}>
         <Button
-          component="a" // tranforma o botão em um link
-          href="https://www.youtube.com/@comuniDados_mz/videos" // link para a pagina de videos
+          component={Link} // tranforma o botão em um link
+          to="https://www.youtube.com/@comuniDados_mz/videos" // link para a pagina de videos
           target="_blank" // abre em nova aba
           rel="noopener noreferrer" // segurança para links externos
-          variant="outlined"
+          variant="contained"
           sx={{
-            background: "#000",
-            "&:hover": { background: "#333" }
+            background: "#34b6e9",
+              "&:hover": { background: "#a61c1c" }
           }}
         >
           Ver todos os videos

@@ -1,6 +1,8 @@
 import { Container, Grid, Typography, Button, Avatar, Box } from "@mui/material";
 import profile from "../assets/profile.jpeg"; // Importe a imagem do perfil
 
+import { Link } from "react-router-dom";
+
 function AboutSection() {
   return (
     <Container sx={{ marginTop: 10 }}>
@@ -37,8 +39,8 @@ function AboutSection() {
 
             <Button
               variant="contained"
-              component="a" // tranforma o botão em um link
-              href="https://www.linkedin.com/in/shelsea-dami%C3%A3o-6aa33a201?trk=contact-info
+              component={Link} // tranforma o botão em um link
+              to="https://www.linkedin.com/in/shelsea-dami%C3%A3o-6aa33a201?trk=contact-info
 *LinkedIn*" // link para o currículo
               target="_blank" // abre em nova aba
               rel="noopener noreferrer" // segurança para links externos

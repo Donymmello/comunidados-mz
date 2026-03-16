@@ -12,19 +12,7 @@ function ServiceCard({ image, title, description }) {
           {description}
         </Typography>
 
-        <Button
-          component="a" // tranforma o botão em um link
-          href="http://localhost:5173/servicos" // link para a pagina serviços
-          target="_blank" // abre em nova aba
-          rel="noopener noreferrer" // segurança para links externos
-          variant="outlined"
-          sx={{
-            background: "#000",
-            "&:hover": { background: "#333" }
-          }}
-        >
-          Mais informações
-        </Button>
+
       </CardContent>
     </Card>
   );

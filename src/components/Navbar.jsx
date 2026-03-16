@@ -57,7 +57,7 @@ function Navbar() {
               />
 
               <Typography
-                variant="h6"
+                variant="h5"
                 sx={{
                   fontWeight: "bold",
                   letterSpacing: 2
@@ -110,8 +110,8 @@ function Navbar() {
             </Button>
 
             <Button
-              component="a"
-              href="https://www.youtube.com/@comuniDados_mz"
+              component={Link}
+              to="https://www.youtube.com/@comuniDados_mz"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
@@ -128,8 +128,8 @@ function Navbar() {
           <Box>
 
             <IconButton
-              component="a"
-              href="https://www.github.com/comunidados-mz/"
+              component={Link}
+              to="https://www.github.com/comunidados-mz/"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
@@ -147,8 +147,8 @@ function Navbar() {
 
 
             <IconButton
-              component="a"
-              href="https://www.linkedin.com/in/comunidados_mz/"
+              component={Link}
+              to="https://www.linkedin.com/in/comunidados_mz/"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
@@ -166,8 +166,8 @@ function Navbar() {
 
 
 
-            <IconButton component="a"
-              href="https://www.instagram.com/comunidados_mz/"
+            <IconButton component={Link}
+              to="https://www.instagram.com/comunidados_mz/"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
@@ -182,8 +182,8 @@ function Navbar() {
               <InstagramIcon sx={{ fontSize: 40 }} /> {/* Aumenta o tamanho aqui */}
             </IconButton>
 
-            <IconButton component="a"
-              href="https://www.youtube.com/@comuniDados_mz"
+            <IconButton component={Link}
+              to="https://www.youtube.com/@comuniDados_mz"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
@@ -198,8 +198,8 @@ function Navbar() {
               <YouTubeIcon sx={{ fontSize: 40 }} /> {/* Aumenta o tamanho aqui */}
             </IconButton>
 
-            <IconButton component="a"
-              href="mailto:shelsealuis05@gmail.com"
+            <IconButton component={Link}
+              to="mailto:shelsealuis05@gmail.com"
               sx={{
                 color: "#000", // Cor padrão
                 border: "0px solid #000", // Adiciona a borda

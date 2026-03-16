@@ -5,6 +5,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import EmailIcon from "@mui/icons-material/Email";
 
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <Box
@@ -24,8 +26,8 @@ function Footer() {
       <Box mt={1}>
 
         <IconButton
-          component="a"
-          href="https://www.github.com/comunidados-mz/"
+          component={Link}
+          to="https://www.github.com/comunidados-mz/"
           target="_blank"
           sx={{ color: "#fff" }}
         >
@@ -33,8 +35,8 @@ function Footer() {
         </IconButton>
 
         <IconButton
-          component="a"
-          href="https://www.linkedin.com/in/comunidados-mz/"
+          component={Link}
+          to="https://www.linkedin.com/in/comunidados-mz/"
           target="_blank"
           sx={{ color: "#fff" }}
         >
@@ -42,8 +44,8 @@ function Footer() {
         </IconButton>
 
         <IconButton
-          component="a"
-          href="https://instagram.com/comunidados_mz/"
+          component={Link}
+          to="https://instagram.com/comunidados_mz/"
           target="_blank"
           sx={{ color: "#fff" }}
         >
@@ -51,8 +53,8 @@ function Footer() {
         </IconButton>
 
         <IconButton
-          component="a"
-          href="https://youtube.com/@comuniDados_mz"
+          component={Link}
+          to="https://youtube.com/@comuniDados_mz"
           target="_blank"
           sx={{ color: "#fff" }}
         >
@@ -60,8 +62,8 @@ function Footer() {
         </IconButton>
 
         <IconButton
-          component="a"
-          href="mailto:shelsealuis05@gmail.com"
+          component={Link}
+          to="mailto:shelsealuis05@gmail.com"
           sx={{ color: "#fff" }}
         >
           <EmailIcon />
